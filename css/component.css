@@ -1,0 +1,91 @@
+.clearfix{
+	zoom:1;
+}
+.clearfix:after{
+	content: ".";
+	visibility: hidden;
+	display: block;
+	overflow: hidden;
+	height: 0.1px;
+	clear: both;
+}
+label{
+	white-space: nowrap;
+}
+
+/* 写真装飾類 */
+img.photo{/* 写真の額 */
+	border-top: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	border-left: 1px solid #999;
+	border-bottom: 1px solid #999;
+	padding: 5px;
+}
+dl.photo dd{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+dl.photo dt img{/* 写真の額 */
+	border-top: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	border-left: 1px solid #999;
+	border-bottom: 1px solid #999;
+	padding: 5px;
+}
+.attachobj{
+	float: right;
+	margin-left: 0.7em;
+}
+pre code{
+	display: block;
+}
+
+/*横並びdl*/
+dl.compact{
+	zoom: 1;
+}
+dl.compact:after{
+	content: ".";
+	visibility: hidden;
+	display: block;
+	overflow: hidden;
+	height: 0.1px;
+	clear: both;
+}
+dl.compact dt{
+	clear: both;
+	float: left;
+	width: 15em;
+	border-bottom: 1px solid #999;
+}
+dl.compact dd{
+	float: left;
+	border-bottom: 1px solid #999;
+	white-space: nowrap;
+}
+
+
+/* 上付き文字(脚注) */
+span.footnote{
+	vertical-align: super;
+	font-size: x-small;
+}
+a.footenote{
+	vertical-align: super;
+	font-size: x-small;
+}
+ul.footnote{
+
+}
+
+/**/
+div.section{
+
+}
+
+/*　会話　*/
+dl.dialog{
+
+}
+
