@@ -1,26 +1,29 @@
-html, body{
+html, body {
     height: 100%;
 }
 
 /* img, div, ul#footnote, actions#li, h1{ behavior: url(etc/css/iepngfix.htc) } */
 
-body{
+body {
     font-size: 88%;
     width: 80%;
     min-width: 800px;
     max-width: 1400px;
     margin: 0 auto;
 }
-#header{
+
+#header {
     border-top: 5px solid #00F;
     background-repeat: no-repeat;
     height: 75px;
     position: relative;
 }
+
 #header address img{
     vertical-align: top;
     margin-right: -15px;
 }
+
 #header address a{
     text-decoration: none;
     color: #669;
@@ -29,34 +32,9 @@ body{
     font-size: 120%;
 }
 
-ul#actions{
-    list-style-type: none;
-    position: absolute;
-    right: 0;
-    top: 2px;
-}
-#actions li{
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    *display: inline;
-    zoom: 1;
-}
-#actions li a{
-    display: inline-block;
-    margin-left: 10px;
-    padding-left: 27px;
-    height: 25px;
-    background-image: url('img/pin.png');
-    background-repeat: no-repeat;
-    *display: inline;
-    zoom: 1;
-}
-
-#menu{
+#menu {
     font-size: 88%;
     width: 18%;
-    float: left;
 }
 #menu > * {
     margin-right: .5em;
@@ -68,10 +46,10 @@ ul#actions{
     line-height: 1.1;
 }
 
-#menu ul.entrylist{
+#menu ul{
     list-style-type: none;
 }
-#menu .entrylist li{
+#menu li{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -80,28 +58,16 @@ ul#actions{
 p{
     margin: .5em 0;
 }
-p#message{
-    background-color: #CCF;
-    border: 1px dashed #00C;
-}
-p#error{
-    color: #F00;
-    font-weight: bold;
-    background-color: #FCC;
-    border: 1px dashed #C00;
-}
 
 #main{
-    width: 77%;
+    width: 40em;
     position: relative;
-    float: right;
     padding-top: 5px;
     padding-left: 40px;
     background-image: url('img/looseleaf.png');
     background-repeat: repeat-y;
     height: 100%;
 }
-
 
 #main h1{
     position: absolute;
@@ -125,6 +91,7 @@ p#error{
     height: 500px;
     margin: .5em 0 0 0;
 }
+
 #main pre{
     margin: .5em 0;
     font-size: 105%;
