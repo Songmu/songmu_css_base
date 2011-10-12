@@ -4,23 +4,6 @@ html, body{
 
 /* img, div, ul#footnote, actions#li, h1{ behavior: url(etc/css/iepngfix.htc) } */
 
-#wrapper{
-    min-height: 100%;
-    margin-bottom: -50px;
-    _height: 100%;
-}
-#content{
-    padding-bottom: 50px;
-    zoom: 1;
-}
-#content:after{
-    content: '.';
-    display: block;
-    height: 0.1px;
-    visibility: hidden;
-    clear: both;
-}
-
 body{
     font-size: 88%;
     width: 80%;
@@ -34,11 +17,11 @@ body{
     height: 75px;
     position: relative;
 }
-#header address    img{
+#header address img{
     vertical-align: top;
     margin-right: -15px;
 }
-#header address    a{
+#header address a{
     text-decoration: none;
     color: #669;
 }
@@ -158,18 +141,6 @@ p#error{
 }
 #main address span:after{
     content: ': ';
-}
-
-#preview, #ajaxpreview{
-    background-image: url('img/preview_back.gif');
-    background-repeat: no-repeat;
-    background-position: right top;
-    padding: .5em;
-    border: 1px dashed #00C;
-    margin: .5em 0;
-}
-#ajaxpreview{
-    display: none;
 }
 
 p.buttons{
