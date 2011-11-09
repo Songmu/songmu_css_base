@@ -168,6 +168,7 @@ blockquote{
     background-position: left bottom;
     background-repeat: no-repeat;
     border-left: 0;
+    padding-left: 25px;
 }
 blockquote p{
     margin-left: 10px;
